@@ -1,6 +1,6 @@
-package com.annakhuseinova.springcloudstreams.services;
+package com.annakhuseinova.springcloudstreams.stream.basics.services;
 
-import com.annakhuseinova.springcloudstreams.bindings.KafkaListenerBinding;
+import com.annakhuseinova.springcloudstreams.stream.basics.bindings.KafkaListenerBinding;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.streams.kstream.KStream;
 import org.springframework.cloud.stream.annotation.EnableBinding;

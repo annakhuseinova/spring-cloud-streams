@@ -1,4 +1,4 @@
-package com.annakhuseinova.springcloudstreams.bindings;
+package com.annakhuseinova.springcloudstreams.stream.basics.bindings;
 
 import org.apache.kafka.streams.kstream.KStream;
 import org.springframework.cloud.stream.annotation.Input;
