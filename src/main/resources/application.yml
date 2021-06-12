@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    stream:
+      # defines the list of sources and destinations
+      bindings:
+        input-channel-1:
+          destination: users
+      # defines the list of your source and destination technology
+      # Spring Cloud Streams allows you to use Apache Kafka Binder (implements Kafka Clients API) and
+      # Apache Kafka Streams binder which implements Kafka Streams API
+      kafka:
+        streams:
+          binder:
+            application-id: hellostreams
+            brokers: localhost:9092
+            configuration:
+              default:
+                key:
+                  serde: org.apache.kafka.common.serialization.Serdes$StringSerde
+                value:
+                  serde: org.apache.kafka.common.serialization.Serdes$StringSerde
