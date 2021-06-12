@@ -1,4 +1,4 @@
-package com.annakhuseinova.springcloudstreams.kafka;
+package com.annakhuseinova.springcloudstreams.kafka.json.dto;
 
 import lombok.Data;
 

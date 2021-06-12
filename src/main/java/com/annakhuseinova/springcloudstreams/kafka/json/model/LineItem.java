@@ -1,4 +1,4 @@
-package com.annakhuseinova.springcloudstreams.kafka.model;
+package com.annakhuseinova.springcloudstreams.kafka.json.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -13,7 +13,7 @@ public class LineItem {
     @JsonProperty("ItemDescription")
     private String itemDescription;
     @JsonProperty("ItemPrice")
-    private String itemPrice;
+    private Double itemPrice;
     @JsonProperty("ItemQty")
     private Integer itemQty;
     @JsonProperty("TotalValue")

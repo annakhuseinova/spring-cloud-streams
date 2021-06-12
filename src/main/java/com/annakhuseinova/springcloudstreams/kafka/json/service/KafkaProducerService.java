@@ -1,4 +1,4 @@
-package com.annakhuseinova.springcloudstreams.kafka.service;
+package com.annakhuseinova.springcloudstreams.kafka.json.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

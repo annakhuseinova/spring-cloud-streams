@@ -2,6 +2,7 @@ plugins {
     id 'org.springframework.boot' version '2.5.0'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
+    id 'avro-gradle-plugin'
 }
 
 group = 'com.annakhuseinova'
@@ -24,6 +25,7 @@ repositories {
 
 dependencies {
 
+    implementation 'org.apache.avro:avro:1.9.2'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter'
     implementation 'org.springframework.cloud:spring-cloud-stream'

@@ -4,7 +4,11 @@ spring:
       client-id: rest-producer
       bootstrap-servers: localhost:9092
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
-      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      properties:
+        # by default, the json serializer includes the type information in the message header. We disable it here
+        # so that consumer won't have issues when deserializing the data when reading
+        spring.json.add.type.headers: false
   cloud:
     stream:
       # defines the list of sources and destinations
@@ -25,3 +29,10 @@ spring:
                   serde: org.apache.kafka.common.serialization.Serdes$StringSerde
                 value:
                   serde: org.apache.kafka.common.serialization.Serdes$StringSerde
+
+application:
+  configs:
+    invoice:
+      count: 60
+    topic:
+      name: pos-topic

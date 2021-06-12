@@ -1,7 +1,7 @@
-package com.annakhuseinova.springcloudstreams.kafka.controller;
+package com.annakhuseinova.springcloudstreams.kafka.json.controller;
 
-import com.annakhuseinova.springcloudstreams.kafka.IncomingMessage;
-import com.annakhuseinova.springcloudstreams.kafka.service.KafkaProducerService;
+import com.annakhuseinova.springcloudstreams.kafka.json.dto.IncomingMessage;
+import com.annakhuseinova.springcloudstreams.kafka.json.service.KafkaProducerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
