@@ -1,6 +1,6 @@
 package com.annakhuseinova.springcloudstreams.kafka.json.service.datagenerator;
 
-import com.annakhuseinova.springcloudstreams.kafka.json.model.LineItem;
+import com.annakhuseinova.springcloudstreams.stream.json.avro.model.LineItem;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.stereotype.Service;
 

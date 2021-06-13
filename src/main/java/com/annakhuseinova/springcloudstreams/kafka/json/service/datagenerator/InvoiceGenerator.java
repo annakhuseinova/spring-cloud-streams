@@ -1,8 +1,8 @@
 package com.annakhuseinova.springcloudstreams.kafka.json.service.datagenerator;
 
-import com.annakhuseinova.springcloudstreams.kafka.json.model.DeliveryAddress;
-import com.annakhuseinova.springcloudstreams.kafka.json.model.LineItem;
-import com.annakhuseinova.springcloudstreams.kafka.json.model.PosInvoice;
+import com.annakhuseinova.springcloudstreams.stream.json.avro.model.DeliveryAddress;
+import com.annakhuseinova.springcloudstreams.stream.json.avro.model.LineItem;
+import com.annakhuseinova.springcloudstreams.stream.json.avro.model.PosInvoice;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
 package com.annakhuseinova.springcloudstreams.kafka.json.service;
 
-import com.annakhuseinova.springcloudstreams.kafka.json.model.PosInvoice;
+import com.annakhuseinova.springcloudstreams.stream.json.avro.model.PosInvoice;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;

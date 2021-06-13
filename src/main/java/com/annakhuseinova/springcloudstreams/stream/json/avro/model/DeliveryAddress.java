@@ -1,4 +1,4 @@
-package com.annakhuseinova.springcloudstreams.kafka.json.model;
+package com.annakhuseinova.springcloudstreams.stream.json.avro.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
